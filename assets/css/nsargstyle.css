@@ -26,7 +26,13 @@
     min-height: 400px; /* Adjust height as needed */
     padding: 50px 0; /* Optional: Add padding to control content spacing */
 }
-
+/* center image across page */
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Optional: control the width of the image */
+}
 
   
 .divider2 {
@@ -38,4 +44,10 @@
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
   background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg" width="500" height="900");
  
+}
+
+/* used in the services section to control the size of the gif image*/
+.gif-icon {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
 }

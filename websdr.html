@@ -3,45 +3,105 @@
 <meta charset="utf-8">
 
 <head>
-    <!-- Published 20/08/2023 V1.01 Resolved NSW-27, NSW-3-, NSW-32-->
-    <!-- Published 22/08/2023 V1.0.02  More work on the Nav Bar,News an activites Tidied.-->
-    <!-- Published 23/08/2023 V1.0.03 Corrected the line indents to make it easier to follow-->
-    <!-- Published 23/08/2023 V1.0.04 Reset the Font styles, Fixed NSW-27 Colour of text green, Fixed the View Calendar button -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images wesdr">
-    <meta name="author" content="Karrl Richardson G7AAY">
-    <title>NSARG</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/elusive-webfont.css">
-    <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=NunitoSans-Regular:300,400,700,300italic,400italic">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <!--<script src="js/bootstrap.min.js"></script>-->
+        <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Index - NSARG</title>
+      <meta name="description" content="Northampton Scout Amateur Radio Group G6NDS G0NDS GB4NDS">
+       <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images wesdr">
+        <meta name="author" content="Karrl Richardson G7AAY">
+    
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com" rel="preconnect">
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=NunitoSans-Regular:300,400,700,300italic,400italic">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    
+      <!-- Main CSS File -->
+      <link href="assets/css/main.css" rel="stylesheet">
+      <link href="assets/css/nsargstyle.css" rel="stylesheet">
+    
 </head>
 <body>
-    <div class="navbar navbar-btn">
-        <a href="index.html" class="smoothScroll">Home
-        </a>
-        <a href="noaa/" class="smoothScroll">NOAA Weather Images
-      </a>
-        <a href="websdr.html" class="smoothScroll">**WebSDR**
-      </a>
-        <!-- <a href="solitude/noaa/" class="smoothScroll">Activity Badges-->
-      </a>
-    </div>
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="websdr.html" class="active">WebSDR</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#Gallery">Gallery</a></li>
+      <li><a href="#team">Leaders</a></li>
+
+      <!-- Original unedited Mega Menu Structure
+       <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li><a href="#">Dropdown 1</a></li>
+          <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Deep Dropdown 1</a></li>
+              <li><a href="#">Deep Dropdown 2</a></li>
+              <li><a href="#">Deep Dropdown 3</a></li>
+              <li><a href="#">Deep Dropdown 4</a></li>
+              <li><a href="#">Deep Dropdown 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Dropdown 2</a></li>
+          <li><a href="#">Dropdown 3</a></li>
+          <li><a href="#">Dropdown 4</a></li>
+        </ul>
+      </li>
+       -->
+      <li class="dropdown"><a href="#"><span>Activity Badges</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li class="dropdown"><a href="#"><span>Cub Scouts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="activitybadge/ccomm.html">Cub Communicator1</a></li>
+              <li aria-hidden="true"><a href="#">Deep Dropdown 3</a></li>
+              <li aria-hidden="true"><a href="#">Deep Dropdown 4</a></li>
+              <li aria-hidden="true"><a href="#">Deep Dropdown 5</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Scouts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Scout Communicator</a></li>
+              <li><a href="#">Scout Electronics</a></li>
+              <li><a href="#"> 3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Explorer</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Explorer Communicator</a></li>
+              <li><a href="#">Explorer Electronics</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Dropdown 2</a></li>
+          <li><a href="#">Dropdown 3</a></li>
+          <li><a href="#">Dropdown 4</a></li>
+        </ul>
+      </li>
+      <!--<li><a href="#contact">Contact</a></li>-->
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  </nav>
    <Div id="headerwrap">
   
     <h1 class="animated bounceIn  purple text-center ">Northampton Scout Amateur Radio Group
@@ -81,7 +141,7 @@ household radios. </h4>
   You should find a web page that looks like the picture below (once you get past the pictures and text at the top of the 
 page).<br>
 
-<img src="/Images/picture/websdr/WebSDR-full-view.jpg" alt="full image">
+<img class="centered-image" src="/Images/picture/websdr/WebSDR-full-view.jpg" alt="full image">
     </div>
     <h4 class="margin_websdr">Although the web page can look a bit confusing when you first arrive, with numerous controls, there 
 are actually only a few key things you need to know to get listening.
