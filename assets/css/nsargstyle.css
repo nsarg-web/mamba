@@ -41,13 +41,18 @@
 }
 
 .divider3 {
-  /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg" width="500" height="900");
- 
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");
+  width: 500px;  /* Width of the element */
+  height: 900px; /* Height of the element */
+  background-size: cover; /* or contain, depending on your preference */
 }
+
 
 /* used in the services section to control the size of the gif image*/
 .gif-icon {
   width: 50px; /* Adjust the width as needed */
   height: auto;
 }
+
+.margin_page {
+  margin: 20px;}
